@@ -255,7 +255,7 @@ a {
   .register-now a.button {
     display: inline-block;
     font-size: 1.5em;
-    color: #fcc; }
+    color: #fdd; }
     @media all and (max-width: 480px) {
       .register-now a.button {
         text-align: center;
@@ -686,7 +686,7 @@ a {
   transition: all 0.2s ease-in-out; }
   .form input:focus, .form input:hover, .form textarea:focus, .form textarea:hover, .form select:focus, .form select:hover {
     background-color: white; }
-.form button {
+.form button, .form .button-large {
   font-size: 1.71429em;
   color: white;
   background-color: #c51330;
@@ -702,7 +702,7 @@ a {
   .form button:hover {
     background: white;
     color: black; }
-  .form button.button-large {
+  .form .button-large {
     font-size: 2.2em; }
 
 .price {
