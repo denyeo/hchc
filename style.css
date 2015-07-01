@@ -244,7 +244,7 @@ a {
 .register-now {
   bottom: 90px;
   right: 0;
-  text-align: right; }
+  text-align: center; }
   @media all and (max-width: 1180px) {
     .register-now {
       text-align: left; } }
@@ -702,6 +702,8 @@ a {
   .form button:hover {
     background: white;
     color: black; }
+  .form button.button-large {
+    font-size: 2.6em; }
 
 .price {
   padding-left: 15px; }
