@@ -49,6 +49,12 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  // Link scrolling
+  $('a.link-scroll').click(function(event) {
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 3000);
+    event.preventDefault();
+  });
+
   // Back to Top
   $('a[href=#top]').click(function(event) {
     $("html,body").animate({ scrollTop: 0 }, 2000);
