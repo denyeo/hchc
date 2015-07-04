@@ -440,7 +440,8 @@ a {
       font-family: "Roboto Condensed", sans-serif;
       line-height: 50px;
       display: block;
-      padding: 0 30px; }
+      padding: 0 30px;
+      width: 100%; /* make entire tab clickable*/ }
       @media all and (max-width: 780px) {
         .schedule ul li a {
           font-size: 1.28571em;
