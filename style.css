@@ -361,11 +361,12 @@ a {
     padding: 20px 40px;
     color: white;
     font-weight: 300; }
-    @media all and (max-width: 980px) {
-      .featured div {
-        width: 100%; } }
     .featured div.image {
+      width: 25%;
       padding: 0; }
+    @media all and (max-width: 980px) {
+      .featured div, .featured div.image {
+        width: 50%; } }
 
 .single {
   width: 25%;
