@@ -357,7 +357,7 @@ a {
         font-size: 1em; } }
   .featured div {
     float: left;
-    width: 50%;
+    width: 56%;
     padding: 20px 40px;
     color: white;
     font-weight: 300; }
@@ -781,6 +781,7 @@ a {
   padding: 60px;
   position: relative; }
 .sponsors ul {
+  height: 0;
   list-style-type: none; }
   .sponsors ul li {
     display: inline-block;
