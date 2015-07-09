@@ -65,11 +65,6 @@ document,'script','//connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '105358706476172');
 fbq('track', 'PageView');
-
-$('#buy-button').click(function(){
-  // Track buy-button clicks
-  fbq('track', 'InitiateCheckout');
-});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=105358706476172&ev=PageView&noscript=1"
@@ -849,6 +844,13 @@ src="https://www.facebook.com/tr?id=105358706476172&ev=PageView&noscript=1"
 <script src="scripts/jquery.inview.min.js"></script>
 <script src="scripts/form.js"></script>
 <script src="scripts/theme.js"></script>
+
+<script>
+$('#buy-button').click(function(){
+  // Track buy-button clicks
+  fbq('track', 'InitiateCheckout');
+});
+</script>
 <!-- scripts ends! -->
 
 </body>
