@@ -55,6 +55,27 @@
 </script>
 <!-- Google Map Ends! -->
 
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '105358706476172');
+fbq('track', 'PageView');
+
+$('#buy-button').click(function(){
+  // Track buy-button clicks
+  fbq('track', 'InitiateCheckout');
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=105358706476172&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
@@ -246,7 +267,7 @@
           <div>
             <h3>Kho Choon Keng</h3>
             <p><strong>Executive Chairman, Lian Huat Group</strong></p>
-            <p>A President's Scholar who graduated with first-class honours from King's College London, Mr Kho served in the Civil Service, oversaw Lian Huat Group's modernisation, and serves in many public causes.</p>
+            <p>A President's Scholar with first-class honours from King's College London, Mr Kho served in the Civil Service, oversaw Lian Huat Group's modernisation, and serves in many public causes.</p>
           </div>
         </div>
         <!-- speaker ends! -->
@@ -620,7 +641,7 @@
 
       <div class="form">
         <form action="http://buytickets.at/hwachongalumniassociation/30536" target=new>
-          <button class="button-large">Register or buy tickets online</button>
+          <button id="buy-button" class="button-large">Register or buy tickets online</button>
         </form>
       </div>
 
