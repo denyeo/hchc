@@ -86,6 +86,11 @@ $(document).ready(function() {
 
   });
 
+  $('.event.extend .event-info a').click(function(e) {
+    e.preventDefault();
+    $(this).parent().parent().parent().parent().find('span').click();
+  });
+
   // FlexSlider
   $('.testimonials').flexslider({
     animation: 'slide',
