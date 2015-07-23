@@ -426,6 +426,23 @@ a {
     .single a:hover {
       opacity: 1; }
 
+.speakers .pad-top-only {
+  clear: both;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+.speakers .desc {
+  font-size: 1.21429em;
+  line-height: 1.2em;
+  color: #888888;
+  margin-bottom: 40px;
+  padding: 0 60px; }
+.speakers a.button {
+  padding: 8px 30px;
+  font-size: 1.4em;
+  margin-top: 12px;
+}
+
 /* 8. Schedule */
 .schedule ul {
   list-style-type: none; }
