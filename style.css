@@ -438,9 +438,16 @@ a {
   margin-bottom: 40px;
   padding: 0 60px; }
 .speakers a.button {
-  padding: 8px 30px;
-  font-size: 1.4em;
+  padding: 14px 32px;
+  font-size: 1.8em;
   margin-top: 12px;
+}
+
+a.speaker-button {
+  font-size: 1.4em;
+  display: inline-block;
+  padding: 4px 16px;
+  line-height: 30px;
 }
 
 /* 8. Schedule */
